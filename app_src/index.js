@@ -20,7 +20,7 @@ const createWindow = () => {
     // and load the index.html of the app.
     //let entry_file = path.resolve(__dirname + '/../dist/index.html') // release
     //mainWindow.loadURL(`file://${entry_file}`);  // release
-    //mainWindow.loadURL('http://localhost:8080/')    // debug
+    mainWindow.loadURL('http://localhost:8080/')    // debug
 
     // Open the DevTools.
     mainWindow.webContents.openDevTools();
